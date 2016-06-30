@@ -5,7 +5,7 @@
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27,16,2); // adress is 0x20 for LCD16x2
 
-// adapted sketch by Nicu FLORICA (niq_ro from http://nicuflorica.blogspot.ro & http://www.arduinotehnic.com )
+// adapted sketch by Nicu FLORICA (niq_ro from http://www.tehnic.go.ro , http://nicuflorica.blogspot.ro & http://www.arduinotehnic.com )
 // version 1m1a, 30.06.2016 - Craiova, Romania
 
 #include <EEPROM.h>
