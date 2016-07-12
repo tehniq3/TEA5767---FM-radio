@@ -180,7 +180,7 @@ digitalWrite(tare, HIGH);
   delay (5000);
   display.clearDisplay(); 
 
-int procent1 = stepi * 6.25;
+int procent1 = stepi * 6.66;
     if (procent1 < 63)  // for x = 0 to 63% => y = a*x;
     {
     level = a * procent1;
@@ -325,7 +325,7 @@ if (sunet == 1) {
 if (stepi <= 0) stepi = 0;
 if (stepi >=15) stepi = 15;
   EEPROM.write(105,stepi);
-int procent1 = stepi * 6.25;
+int procent1 = stepi * 6.66;
     if (procent1 < 63)  // for x = 0 to 63% => y = a*x;
     {
     level = a * procent1;
