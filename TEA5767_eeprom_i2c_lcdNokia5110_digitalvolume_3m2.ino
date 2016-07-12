@@ -21,12 +21,15 @@ All text above, and the splash screen must be included in any redistribution
 * Pin 4 (DIN) -> Arduino digital 4 (D4)
 * Pin 5 (CLK) - Arduino digital 3 (D3)
 * Pin 6 (Vcc) -> +5V thru adaptor module (see http://nicuflorica.blogspot.ro/2013/06/afisajul-folosit-la-telefoanele-nokia.html )
-* Pin 7 (LIGHT) -> +5V thru 56-100 ohms resistor (for permanent lights) or... other pin control
+* Pin 7 (LIGHT) -> GND thru 56-100 ohms resistor (for permanent lights) or... other pin control
 * Pin 8 (GND) -> GND1 or GND2 
 */
 
-// adapted sketch by niq_ro from http://nicuflorica.blogspot.ro
-// version 3.0
+// adapted sketch by Nicu FLORICA (niq_ro) from http://nicuflorica.blogspot.ro
+// & http://www.arduinotehniq.com
+// & http://www.nicuflorica.blogspot.ro
+// & http://www.arduinotehniq.blogspot.com/
+// version 3.2
 
 #include <SPI.h>
 #include <Adafruit_GFX.h>
